@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.btn{
+  background-color: #14d4b4;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+}
